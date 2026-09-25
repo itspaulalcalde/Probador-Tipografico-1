@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Probador tipográfico</title>
+
+  <!-- RETO EXTRA: pega aquí los <link> de Google Fonts o Adobe Fonts -->
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main class="probador">
+
+    <header class="probador__cabecera">
+      <h1>Probador tipográfico</h1>
+      <p>Escribe un texto, elige una fuente y ajusta el tamaño.</p>
+    </header>
+
+    <section class="controles">
+
+      <div class="control control--ancho">
+        <label for="texto">Texto</label>
+        <input type="text" id="texto" placeholder="Escribe algo...">
+      </div>
+
+      <div class="control">
+        <label for="tamano">Tamaño <span id="valor">48px</span></label>
+        <input type="range" id="tamano" min="12" max="120" value="48">
+      </div>
+
+      <div class="control">
+        <label for="fuente">Fuente</label>
+        <select id="fuente">
+          <option value="Arial, sans-serif">Arial</option>
+          <option value="Georgia, serif">Georgia</option>
+          <option value="'Courier New', monospace">Courier New</option>
+          <!-- RETO EXTRA: añade aquí tus propias fuentes -->
+        </select>
+      </div>
+
+      <!-- RETOS EXTRA: añade aquí el selector de color y los botones -->
+
+    </section>
+
+    <section class="muestra-contenedor">
+      <p id="muestra" class="muestra">El veloz murciélago hindú</p>
+    </section>
+
+  </main>
+
+  <script src="js/app.js"> </script>
+
+</body>
+</html>
