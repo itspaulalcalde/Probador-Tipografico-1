@@ -184,5 +184,6 @@ button:hover {
 
 /* Para el reto extra de la negrita (classList.toggle) */
 .muestra.negrita {
+  font-style: italic;
   font-weight: 700;
 }
