@@ -68,4 +68,8 @@ btnReset.addEventListener("click", function () {
     muestra.style.fontFamily = fuente.value;
 
     color.value = " #ff0000";
+    muestra.style.color = "black";
+
+    // Resetear negrita y cursiva, pista remove ()
+
 })
